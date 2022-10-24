@@ -157,6 +157,27 @@ main{
   display: none;
 }
 
+.attribution{
+  color: #fff;
+  position: absolute;
+  top: 80%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+.attribution a{
+  text-decoration: none;
+  color: #0072ff;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.attribution a:hover{
+  color: hsl(229, 7%, 55%);
+}
+
 @media (max-width: 992px) {
   .landing{
     bottom: -5px;
@@ -197,5 +218,12 @@ main{
     bottom: -35px;
     z-index: -1;
     left: 0;
+  }
+  .attribution{
+    width: 60%;
+    display: block;
+    position: absolute;
+    right: 67px;
+    top: 88%;
   }
 }
